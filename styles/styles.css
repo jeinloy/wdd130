@@ -1,3 +1,11 @@
+:root {
+    --primary-color: white;
+    --secondary-color: darkblue;
+    --font-size-large: 22px;
+    --margin-standard: 14px;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
