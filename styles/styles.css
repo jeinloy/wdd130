@@ -1,15 +1,6 @@
 :root {
     --primary-color: darkblue;
     --secondary-color: black;
-    --accent-color: gray;
-    --aside-bg: #eee;
-    --aside-text: #300;
-    --border-light: rgba(0, 0, 0, 0.2);
-    --footer-border: #000;
-    --heading-font: "Playfair Display", serif;
-    --body-font: "Roboto", san-serif;
-    --font-size-large: 32px;
-    --margin-standard: 16px;
 }
 
 nav {
@@ -25,7 +16,6 @@ nav a {
 
 h1 {
     color: var(--primary-color);
-    font-family: var(--heading-font);
 }
 
 img {
