@@ -67,14 +67,14 @@ article {
     color: #fff;
 }
 
-.socialmedia img {
-    width: 40px;
-}
-
 .hero article img {
     position: absolute;
     float: right;
     width: 125px;
+}
+
+.socialmedia img {
+    width: 40px;
 }
 
 .socialmedia a {
