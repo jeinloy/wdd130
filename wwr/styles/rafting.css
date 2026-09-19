@@ -1,3 +1,5 @@
+/*these are root savings, like a box where I save all general styles and are accesible to use*/
+/*these are not settings you´re about to display in the browser or rendered on the web, these are the unseen styles settings*/
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
@@ -5,5 +7,4 @@
     --accent2-color: #e9c46a;
     --heading-font: "times new roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
-
 }
