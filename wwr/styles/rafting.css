@@ -20,14 +20,13 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
 
-    header,
-    main,
-    footer {
-        width: 840px;
-        margin: 0 auto;
-    }
-
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
 }
 
 header {
@@ -47,4 +46,8 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
