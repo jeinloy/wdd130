@@ -1,4 +1,12 @@
-/*these are root savings, like a box where I save all general styles and are accesible to use*/
+/*this universal selector, which means that you´re starting from zero, it works like a reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*these are root savings, like a box where I save all general styles and are accesible to use, this is like saving what I´m going to use later, colors, fonts and everything*/
 /*these are not settings you´re about to display in the browser or rendered on the web, these are the unseen styles settings*/
 :root {
     --primary-color: #055a05;
@@ -7,4 +15,36 @@
     --accent2-color: #e9c46a;
     --heading-font: "times new roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+
+    header,
+    main,
+    footer {
+        width: 840px;
+        margin: 0 auto;
+    }
+
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
 }
