@@ -67,11 +67,8 @@ article {
     color: #fff;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero article img {
+    position: absolute;
     float: right;
     width: 125px;
 }
