@@ -9,10 +9,16 @@
     --secondary-color: black;
 }
 
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
 header,
 footer {
     max-width: 840px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 nav {
@@ -77,12 +83,6 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
-}
-
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
 }
 
 /*class selectors*/
