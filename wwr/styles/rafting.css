@@ -69,7 +69,7 @@ article {
 
 .hero article img {
     position: absolute;
-    float: right;
+    float: left;
     width: 125px;
 }
 
