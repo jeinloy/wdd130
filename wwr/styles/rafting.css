@@ -68,9 +68,8 @@ article {
 }
 
 .hero article img {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+    display: block;
+    margin-left: auto;
     width: 125px;
 }
 
